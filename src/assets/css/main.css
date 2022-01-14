@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-dark-blue {
+  background: #0a0a2c;
+}
+
+.bg-dark-theme {
+  background: #08081b;
+}
+
+.bg-dark-blue-lighten {
+  background: #0f0f3f;
+}
+
+.btn-square {
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.btn-square-lg {
+  height: 60px;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.shadow-top {
+  -webkit-box-shadow: 0px -8px 14px #0000002f;
+          box-shadow: 0px -8px 14px #0000002f;
+}
+
+.main-container {
+  padding-bottom: 80px;
+}
+
+.floating-action-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 100%;
+}
+
+#search-expense.form-control {
+  background: #0a0a2c;
+}
